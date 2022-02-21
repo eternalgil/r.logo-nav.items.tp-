@@ -3,6 +3,8 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 /* Clear fix hack */
@@ -25,7 +27,6 @@
 
 body {
 width: 100%;
-margin: 0px 10px;
 }
 
 
@@ -33,47 +34,14 @@ margin: 0px 10px;
 /* LAYOUT
 /*******************************************/
 header {
- margin: 0 4%;
-}
-nav {
-  display: flex;
-  height: 80px;
   width: 100%;
-  align-items: center;
-  justify-content: stretch;
-}
-nav .logo {
-  display: flex;
-  flex-wrap: wrap;
-}
-nav ul {
-  display: flex;
-  width: fit-content;
+  margin: 1.5rem;
 }
 
-ul, li {
-  width: 100%;
-  margin: 20px 40px;
-  padding: 0 10px;
-  justify-content:stretch;
+header {
+  background-color: aliceblue;
+  border: solid 5px black;
 }
- .logo {
-   margin: 0 3%;
- }
-
-/*.container {
-  display: flex;
-  justify-content: flex-end;
-  margin: 0%;
-  padding: 0%;
-}*/
-
-/*ul li {
-  margin: 3%;
-}
-.logo {
-  margin: 2%;
-}*/
 
 footer {
 
