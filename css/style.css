@@ -5,6 +5,10 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  font-family: 'Cinzel', serif;;
+}
+html {
+  font-size: 65.2%;
 }
 
 /* Clear fix hack */
@@ -22,26 +26,62 @@
 }
 
 /******************************************
-/* BASE STYLES
+/* HEADER STYLES
 /*******************************************/
 
-body {
-width: 100%;
+header {
+  width: 100vw;
+  margin: 1rem;
+  background-color: aliceblue;
+  border: solid 5px black;
+  font-size: 1.5rem;
+}
+.circle {
+  background-color: black;
+  color:azure;
+  border-radius: 15px 25px 15px 25px;
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+
+
+nav {
+  display: flex;
+  width: 100%;
+  height: 80px;
+}
+.logo, .container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 20%;
+  font-size: 2.2rem;
+}
+.container {
+  width: 80%;
+  justify-content:space-evenly;
 }
 
 
 /******************************************
-/* LAYOUT
+/* BASE STYLES
 /*******************************************/
-header {
-  width: 100%;
-  margin: 1.5rem;
-}
 
-header {
-  background-color: aliceblue;
-  border: solid 5px black;
-}
+body {
+  width: 100%;
+  }
+  
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+
+
+
+
+/*Footer begins here*/
 
 footer {
 
@@ -50,3 +90,6 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+@media all and (max-width: 820px) {
+
+}
